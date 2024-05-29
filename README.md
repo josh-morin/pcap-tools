@@ -1,4 +1,4 @@
-## pcap_dt_write
+## dt_write
 A utility for processing and modifying the timestamps of pcap files. It is designed to work with pcap files with extensions `.pcap` and `.pcapng`. This script leverages Wireshark tools, specifically editcap and tshark, to read and adjust the timestamps within these files.
 
 
