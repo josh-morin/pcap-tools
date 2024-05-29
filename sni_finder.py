@@ -13,7 +13,6 @@ def extract_tls_sni(packet):
 
 
 def main(pcap_file):
-    # Using FileCapture to read packets from a pcap file
     capture = pyshark.FileCapture(pcap_file)
 
     table = PrettyTable()
